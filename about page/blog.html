@@ -9,15 +9,26 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style>
-h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
-body {font-family: "Open Sans"}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Oswald"
+  }
+
+  body {
+    font-family: "Open Sans"
+  }
 </style>
+
 <body class="light-grey"> </body>
 
 <link rel="stylesheet" href="blog.css">
 <link rel="styesheet" href="blog.js">
 
-    
+
 <!-- Nav bar with social media icons -->
 <div class="w3-bar w3-black w3-hide-small">
   <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
@@ -25,7 +36,7 @@ body {font-family: "Open Sans"}
   <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
   <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
 </div>
-  
+
 <!-- Main Image -->
 <div class="w3-content" style="max-width: fit-content;">
 
@@ -36,53 +47,54 @@ body {font-family: "Open Sans"}
   </header>
 </div>
 
-   <!-- Image header -->
-   <header class="w3-display-container w3-wide" id="home">
-    <img class="w3-image" src="/images/drawing1.jpg" alt="Fashion Blog" style="width:1600px;max-width:1060px">
-    <div class="w3-display-left w3-padding-large">
-      <h1 class="w3-text-white">Cam's</h1>
-      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>SNEAKER BLOG</b></h1>
-      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">SUBSCRIBE</button></h6>
-    </div>
-  </header>
- 
-  <!-- Grid -->
-  <div class="w3-row w3-padding w3-border">
-      </div>
+<!-- Image header -->
+<header class="w3-display-container w3-wide" id="home">
+  <img class="w3-image" src="/images/pink.jpg" alt="Fashion Blog" width="1600" height="1060">
+  <div class="w3-display-left w3-padding-large">
+    <h1 class="w3-text-white">Cam's</h1>
+    <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>SNEAKER BLOG</b></h1>
+    <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off"
+        onclick="document.getElementById('subscribe').style.display='block'">SUBSCRIBE</button></h6>
+  </div>
+</header>
 
-      <!-- Container for the image gallery -->
+<!-- Grid -->
+<div class="w3-row w3-padding w3-border">
+</div>
+
+<!-- Container for the image gallery -->
 <div class="container">
 
-    <!-- Full-width images with number text -->
-    <div class="mySlides">
-      <div class="numbertext">1 / 6</div>
-        <img src="/images/breds.jpg" style="width:100%">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">2 / 6</div>
-        <img src="/images/offwhite.jpg" style="width:100%">
-    </div>
-  
-    <div class="mySlides">
-      <div class="numbertext">3 / 6</div>
-        <img src="/images/universityblues.jpg" style="width:100%">
-    </div>
-    <div class="mySlides">
-        <div class="numbertext">4/ 6</div>
-          <img src="/images/breds.jpg" style="width:100%">
-      </div>
-    
-      <div class="mySlides">
-        <div class="numbertext">5 / 6</div>
-          <img src="/images/offwhite.jpg" style="width:100%">
-      </div>
-    
-      <div class="mySlides">
-        <div class="numbertext">6 / 6</div>
-          <img src="/images/universityblues.jpg" style="width:100%">
-      </div>
-    <!-- Next and previous buttons -->
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="/images/aquajpg.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="/images/offwhite.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="/images/summer.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">4/ 6</div>
+    <img src="/images/breds.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="/images/blue Js.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="/images/b&w.jpg" style="width:100%">
+  </div>
+  <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
@@ -94,53 +106,154 @@ body {font-family: "Open Sans"}
   <!-- Thumbnail images -->
   <div class="row">
     <div class="column">
-      <img class="demo cursor" src="/images/breds.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Breds">
+      <img class="demo cursor" src="/images/aquajpg.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Breds">
     </div>
     <div class="column">
       <img class="demo cursor" src="/images/offwhite.jpg" style="width:100%" onclick="currentSlide(2)" alt="Offwhite">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/images/universityblues.jpg" style="width:100%" onclick="currentSlide(3)" alt="University Blues">
+      <img class="demo cursor" src="/images/summer.jpg" style="width:100%" onclick="currentSlide(3)"
+        alt="University Blues">
     </div>
     <div class="row">
-        <div class="column">
-          <img class="demo cursor" src="/images/breds.jpg" style="width:100%" onclick="currentSlide(4)" alt="The Breds">
-        </div>
-        <div class="column">
-          <img class="demo cursor" src="/images/offwhite.jpg" style="width:100%" onclick="currentSlide(5)" alt="Offwhite">
-        </div>
-        <div class="column">
-          <img class="demo cursor" src="/images/universityblues.jpg" style="width:100%" onclick="currentSlide(6)" alt="University Blues">
-        </div>
+      <div class="column">
+        <img class="demo cursor" src="/images/breds.jpg" style="width:100%" onclick="currentSlide(4)" alt="The Breds">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="/images/blue Js.jpg" style="width:100%" onclick="currentSlide(5)" alt="Offwhite">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="/images/b&w.jpg" style="width:100%" onclick="currentSlide(6)"
+          alt="University Blues">
+      </div>
     </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+  <!-- Blog entries -->
+  <div class="w3-col l8 s12">
+
+    <!-- Blog entry -->
+    <div class="w3-container w3-white w3-margin w3-padding-large">
+      <div class="w3-center">
+        <h3> Lets Talk Closets: </h3>
+        <h5>Cam's shoe closet <span class="w3-opacity">June 3rd, 2021</span></h5>
+      </div>
+
+      <div class="w3-justify">
+        <img src="/images/Wall.jpg" alt="Cloest Goals!!!" style="width:100%" class="w3-padding-16">
+        <p><strong> The Ultimate Shoe Closet Goals!!</strong> I am crazy obsessed with the shoes (especially jordans as
+          you can tell) and the issue I commonly run into is not having enough space. So I decided to clean out of one
+          of my rooms that is not in use and turn it into the ultimate dream closet of mine. Here you can see I built a
+          whole bunch of shelves that can fit a 2 pairs of sneakers per self (24 pairs in total). This is just one
+          portion of wall dedicated to just my Jordans.</p>
+        <p> Which one is your favorite pair?</p>
+        <p> What pair should I add to my collection?</p>
+        <p> Like and Comment down below!! :)</p>
+        <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i
+                class="fa fa-thumbs-up"></i> Like</b></button></p>
+        <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Comment  </b>
+            <span class="w3-tag w3-white">1</span></button></p>
+        <p class="w3-clear"></p>
+        <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+          <hr>
+          <div class="w3-col l2 m3">
+            <img src="/images/Wall.jpg" style="width:90px;">
+          </div>
+          <div class="w3-col l10 m9">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Blog entry 2 -->
+  <div class="w3-container w3-white w3-margin w3-padding-large">
+    <div class="w3-center">
+      <h3> Bestie Goals: </h3>
+      <h5>Friends who share the same sneaker game are winning <span class="w3-opacity">May 21st, 2021</span></h5>
     </div>
 
-     <!-- Blog entries -->
-     <div class="w3-col l8 s12">
-    
-        <!-- Blog entry -->
-        <div class="w3-container w3-white w3-margin w3-padding-large">
-          <div class="w3-center">
-            <h3>This is where I would Post a blog</h3>
-            <h5>universityblues, <span class="w3-opacity">May 25, 2021</span></h5>
-          </div>
-  
-          <div class="w3-justify">
-            <img src="/images/universityblues.jpg" alt="University Blues" style="width:100%" class="w3-padding-16">
-            <p><strong>Shoes!</strong> I am crazy obsessed with the shoes.......fhvaoikvnahvnv ioavjioadv ahv iaodfvakdnvadhvfaodvn</p>
-            <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-            <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
-            <p class="w3-clear"></p>
-            <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
-              <hr>
-                <div class="w3-col l2 m3">
-                  <img src="/images/universityblues.jpg" style="width:90px;">
-                </div>
-                <div class="w3-col l10 m9">
-                </div>
-            </div>
+    <div class="w3-justify">
+      <img src="/images/gotem.jpg" alt="Got Em'!!!" style="width:35%" class="w3-left-align">
+      <p><strong> Finally taking in the W</strong> Lets be real, buying sneakers now a days is like winning the lottery. With so many bots and people flipping them for profit, buying sneakers isnt what it use to be back when were younger. Probably out of every 50 shoes I try to purchase I wind up only getting luck once. Apps like the SNKRS app dont have a system to crack down on bots, which makes it nearly impossible to buy the shoes you want at the retail price. I was very lucky when it came to snagging a pair of the silver toe jordan 1s for $170 which has a resell value of $375 </p>
+      <p>What dubs and Ls have you taken lately on some of the sneaker apps? What are your thoughts on people who use bots on these apps? </p>
+      <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i
+              class="fa fa-thumbs-up"></i> Like</b></button></p>
+      <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')" id="Bestie"><b>Replies  </b>
+          <span class="w3-tag w3-white">1</span></button></p>
+      <p class="w3-clear"></p>
+      <div class="w3-row w3-margin-bottom" id="demo2" style="display:none">
+        <hr>
+        <div class="w3-col l2 m3">
+          <img src="/images/pair.jpg" style="width:90px;">
+          <p>Apps like these need to do a better job of making it difficult for the use of Bots! I be taken too many L's and dont want to pay resell price. it ridiculos!!!</p>
         </div>
+        <div class="w3-col l10 m9">
+        </div>
+      </div>
     </div>
+  </div>
+  </div>
+</div>
+
+<!-- end of blog entries -->
+
+<!-- About me menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-white w3-margin">
+    <img src="/images/self.png" alt="Jane" style="width:100%" class="w3-grayscale">
+    <div class="w3-container w3-black">
+      <h4>Cami</h4>
+      <p>Welcome to my sneaker blog guys! Here I will post weekly blogs on the latest and hottest sneakers on the market. Street style has been deemed as a mans fashion statement so I am here to break those gender rules and show that girls can rock street wear as well.</p>
     </div>
+  </div>
+  <hr>
+
+  <div class="w3-white w3-margin">
+    <div class="w3-container w3-padding w3-black">
+      <h4>Follow Me</h4>
+    </div>
+    <div class="w3-container w3-xlarge w3-padding">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+    </div>
+  </div>
+  <hr>
+
+   <!-- Subscribe -->
+   <div class="w3-white w3-margin">
+    <div class="w3-container w3-padding w3-black">
+      <h4>Subscribe</h4>
+    </div>
+    <div class="w3-container w3-white">
+      <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+      <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
+    </div>
+  </div>
+
+<script>
+  //  blog replies/comments
+  document.getElementById("myBtn").click();
+  function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  
+  function likeFunction(x) {
+    x.style.fontWeight = "bold";
+    x.innerHTML = "✓ Liked";
+  }
+  </script>
+  
 </div>
 </html>
